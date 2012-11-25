@@ -86,7 +86,7 @@
 5 setViewDistance !"\"setViewDistance\"," 
 5 setWeaponReloadingTime !"\"setWeaponReloadingTime\","
 5 setWeaponState !"\"setWeaponState\"," 
-5 skipTime !"\"skipTime\"," !"rskiptime = 'skiptime'" !"rskiptimecode = compile PreprocessFile (BIS_PathMPscriptCommands + 'skiptime.sqf')"
+//5 skipTime !"\"skipTime\"," !"rskiptime = 'skiptime'" !"rskiptimecode = compile PreprocessFile (BIS_PathMPscriptCommands + 'skiptime.sqf')"
 5 teamSwitch !"\"teamSwitch\"," 
 5 waypointVisible !"\"waypointVisible\"," 
 1 putWeaponPool !"\"putWeaponPool\"," 
