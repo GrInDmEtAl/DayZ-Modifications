@@ -33,3 +33,5 @@ if (!isDedicated) then {
 		nul = [_x, 2, time, false, false] spawn BIS_Effects_Burn;
 	} forEach allMissionObjects "UH1Wreck_DZ";
 };
+
+[] execVM "scripts\time.sqf";
