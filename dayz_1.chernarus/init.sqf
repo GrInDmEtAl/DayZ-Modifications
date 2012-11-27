@@ -27,11 +27,10 @@ if (!isDedicated) then {
 	0 cutText [(localize "STR_AUTHENTICATING"), "BLACK FADED",60];
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 	_playerMonitor = [] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
+	_skiptime = [] execVM "scripts\time.sqf";
 
 	// Create burn effect for each helicopter wreck
 	{
 		nul = [_x, 2, time, false, false] spawn BIS_Effects_Burn;
 	} forEach allMissionObjects "UH1Wreck_DZ";
 };
-
-[] execVM "scripts\time.sqf";
